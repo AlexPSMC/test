@@ -92,8 +92,8 @@ body {
 }
 
 .hero-image-wrapper {
-  width: 140px;        /* tamaño del círculo */
-  height: 140px;
+  width: 180px;        /* tamaño del círculo */
+  height: 180px;
   border-radius: 50%;
   padding: 6px;
   background: rgba(0, 0, 0, 0.6);
@@ -218,6 +218,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
