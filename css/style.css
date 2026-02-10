@@ -27,23 +27,34 @@ body {
   cursor: pointer;
 }
 
-/* MENU */
-.menu {
-  position: fixed;
-  inset: 0;
-  background: black;
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 35px;
-  z-index: 100;
-}
-
 .menu a {
+  position: relative;
   color: white;
   font-size: 42px;
   text-decoration: none;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+/* línea inferior */
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 3px;
+  background: red;
+  transition: width 0.3s ease;
+}
+
+/* hover */
+.menu a:hover {
+  color: red;
+}
+
+.menu a:hover::after {
+  width: 100%;
 }
 
 .close {
@@ -66,7 +77,13 @@ body {
 
 .hero h1 {
   font-size: 64px;
-  text-shadow: 0 0 15px red;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: white;
+  text-shadow:
+    0 0 5px red,
+    0 0 15px red,
+    0 0 30px red;
 }
 
 .sub {
@@ -164,3 +181,4 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
