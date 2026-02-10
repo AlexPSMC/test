@@ -6,7 +6,7 @@
 
 body {
   background: radial-gradient(circle at left, #3a0000, #000);
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -194,6 +194,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
