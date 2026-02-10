@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at left, #3a0000, #000);
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.logo span {
+  color: red;
+}
+
+.menu-btn {
+  color: red;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* MENU */
+.menu {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  z-index: 100;
+}
+
+.menu a {
+  color: white;
+  font-size: 42px;
+  text-decoration: none;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  min-height: 80vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 64px;
+  text-shadow: 0 0 15px red;
+}
+
+.sub {
+  opacity: .8;
+}
+
+.desc {
+  font-size: 14px;
+  opacity: .6;
+}
+
+.line {
+  width: 60px;
+  height: 3px;
+  background: red;
+  margin: 15px auto;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 28px;
+  margin: 8px;
+  text-decoration: none;
+}
+
+.btn.red {
+  background: red;
+  color: white;
+}
+
+.btn.outline {
+  border: 1px solid red;
+  color: white;
+}
+
+/* GALLERY */
+.gallery {
+  padding: 80px 60px;
+}
+
+.gallery h2 {
+  text-align: center;
+  font-size: 42px;
+  color: #ff8a8a;
+}
+
+.grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: .3s;
+}
+
+.card:hover {
+  outline: 2px solid red;
+}
+
+.card img {
+  width: 100%;
+  cursor: pointer;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modal span {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
