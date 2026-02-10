@@ -6,7 +6,7 @@
 
 body {
   background: radial-gradient(circle at left, #3a0000, #000);
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   color: white;
 }
 
@@ -28,12 +28,11 @@ body {
 }
 
 .menu a {
-  position: relative;
-  color: white;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 42px;
-  text-decoration: none;
-  letter-spacing: 2px;
-  transition: color 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: none;
 }
 
 /* línea inferior */
@@ -76,23 +75,25 @@ body {
 }
 
 .hero h1 {
-  font-size: 64px;
-  font-weight: 800;
-  letter-spacing: 3px;
-  color: white;
+  font-size: 68px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #ffffff;
   text-shadow:
-    0 0 5px red,
-    0 0 15px red,
-    0 0 30px red;
+    0 0 6px rgba(255, 0, 0, 0.6),
+    0 0 18px rgba(255, 0, 0, 0.6);
 }
 
 .sub {
-  opacity: .8;
+  font-size: 16px;
+  letter-spacing: 1px;
+  opacity: 0.85;
 }
 
 .desc {
   font-size: 14px;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .line {
@@ -181,4 +182,5 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
