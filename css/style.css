@@ -92,10 +92,10 @@ body {
 }
 
 .hero-image-wrapper {
-  width: 180px;        /* tamaño del círculo */
-  height: 180px;
+  width: 250px;        /* tamaño del círculo */
+  height: 250px;
   border-radius: 50%;
-  padding: 8px;
+  padding: 15px;
   background: rgba(0, 0, 0, 0.6);
   border: 2px solid #ef4444;
   box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
@@ -109,8 +109,8 @@ body {
 }
 
 .hero-image {
-  width: 150%;
-  height: 150%;
+  width: 250%;
+  height: 250%;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -218,6 +218,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
