@@ -28,37 +28,11 @@ body {
 }
 
 .menu a {
-  position: relative;
   font-family: 'Rajdhani', sans-serif;
   font-size: 42px;
   font-weight: 600;
   letter-spacing: 4px;
   text-transform: none;
-  color: white;
-  text-decoration: none;
-  letter-spacing: 2px;
-  transition: color 0.3s ease;
-}
-
-/* línea inferior */
-.menu a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 0;
-  height: 3px;
-  background: red;
-  transition: width 0.3s ease;
-}
-
-/* hover */
-.menu a:hover {
-  color: red;
-}
-
-.menu a:hover::after {
-  width: 100%;
 }
 
 .close {
@@ -187,6 +161,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
