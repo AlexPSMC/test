@@ -5,8 +5,9 @@
 }
 
 body {
+  margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #111827;
+  background-color: #020617; /* oscuro */
   color: #e5e7eb;
   overflow-x: hidden;
 }
@@ -190,5 +191,6 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
