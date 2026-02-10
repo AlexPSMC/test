@@ -40,14 +40,12 @@ body {
 }
 
 .menu a {
-  position: relative;
   font-family: 'Rajdhani', sans-serif;
   font-size: 46px;
   font-weight: 600;
   letter-spacing: 1px;
   color: white;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
 .menu a::after {
@@ -88,23 +86,26 @@ body {
 }
 
 .hero h1 {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 68px;
   font-weight: 700;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: white;
   text-shadow:
     0 0 6px rgba(255, 0, 0, 0.6),
     0 0 18px rgba(255, 0, 0, 0.6);
 }
 
 .sub {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 16px;
+  font-weight: 400;
   letter-spacing: 1px;
-  opacity: 0.85;
 }
 
 .desc {
+  font-family: 'Rajdhani', sans-serif;
   font-size: 14px;
   opacity: 0.6;
 }
@@ -195,3 +196,4 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
