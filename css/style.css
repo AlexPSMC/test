@@ -28,11 +28,16 @@ body {
 }
 
 .menu a {
+  position: relative;
   font-family: 'Rajdhani', sans-serif;
   font-size: 42px;
   font-weight: 600;
   letter-spacing: 4px;
   text-transform: none;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
 }
 
 /* línea inferior */
@@ -182,5 +187,6 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
