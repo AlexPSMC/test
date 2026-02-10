@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   background: radial-gradient(circle at left, #3a0000, #000);
-  color: #e5e7eb;
+  color: white;
   overflow-x: hidden;
 }
 
@@ -191,6 +191,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
