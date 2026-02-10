@@ -95,7 +95,7 @@ body {
   width: 180px;        /* tamaño del círculo */
   height: 180px;
   border-radius: 50%;
-  padding: 6px;
+  padding: 8px;
   background: rgba(0, 0, 0, 0.6);
   border: 2px solid #ef4444;
   box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
@@ -218,6 +218,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
