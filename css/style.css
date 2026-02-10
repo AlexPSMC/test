@@ -6,7 +6,7 @@
 
 body {
   background: radial-gradient(circle at left, #3a0000, #000);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   color: white;
 }
 
@@ -20,6 +20,11 @@ body {
 .logo span {
   font-family: 'Montserrat', sans-serif;
   color: red;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 .menu-btn {
@@ -189,6 +194,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
