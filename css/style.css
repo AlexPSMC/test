@@ -17,6 +17,8 @@ body {
 }
 
 .logo span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; /* gordita pero elegante */
   color: red;
 }
 
@@ -187,5 +189,3 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
-
-
