@@ -27,12 +27,46 @@ body {
   cursor: pointer;
 }
 
+.menu {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  z-index: 100;
+}
+
 .menu a {
+  position: relative;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 42px;
+  font-size: 46px;
   font-weight: 600;
-  letter-spacing: 4px;
-  text-transform: none;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 2px;
+  background: red;
+  transition: width 0.25s ease;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+.menu a:hover::after {
+  width: 100%;
 }
 
 .close {
@@ -40,7 +74,7 @@ body {
   top: 20px;
   right: 30px;
   color: red;
-  font-size: 30px;
+  font-size: 26px;
   cursor: pointer;
 }
 
@@ -161,7 +195,3 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
-
-
-
-
