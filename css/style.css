@@ -109,8 +109,8 @@ body {
 }
 
 .hero-image {
-  width: 250%;
-  height: 250%;
+  width: 120%;
+  height: 120%;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -218,6 +218,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
