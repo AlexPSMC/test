@@ -5,11 +5,9 @@
 }
 
 body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
   background: radial-gradient(circle at left, #3a0000, #000);
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  overflow-x: hidden;
 }
 
 /* NAV */
@@ -191,6 +189,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
