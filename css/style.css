@@ -192,14 +192,22 @@ body {
 }
 
 .card {
-  background: #111;
-  border-radius: 12px;
+  background: #0d0d0d;
+  border-radius: 16px;
   overflow: hidden;
-  transition: .3s;
+  aspect-ratio: 1 / 1; /* cuadrado perfecto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  border: 1px solid rgba(255, 0, 0, 0.15);
 }
 
 .card:hover {
   outline: 2px solid red;
+  transform: translateY(-6px);
+  border: 1px solid red;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
 }
 
 .card img {
@@ -243,4 +251,5 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
 
