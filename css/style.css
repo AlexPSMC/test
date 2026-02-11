@@ -134,10 +134,10 @@ body {
 }
 
 .line {
-  width: 80px;
-  height: 3px;
-  background: red;
-  margin: 15px auto;
+  width: 120px;
+  height: 4px;
+  background: #ff0000;
+  border-radius: 5px;
 }
 
 /* BUTTONS */
@@ -183,18 +183,15 @@ body {
 
 .gallery-header {
   display: flex;
-  align-items: center;
-  gap: 25px;
+  flex-direction: column; /* 👈 esto hace que se pongan uno debajo del otro */
+  align-items: flex-start;
   margin-bottom: 60px;
-  padding-left: 5px; /* pequeño ajuste visual */
 }
 
-/* TITULO */
 .gallery-header h2 {
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 900;
-  color: #ff6b6b;
-  white-space: nowrap;
+  margin-bottom: 10px;
 }
 
 /* LINEA */
@@ -275,5 +272,3 @@ body {
     grid-template-columns: 1fr;
   }
 }
-
-
