@@ -134,7 +134,7 @@ body {
 }
 
 .line {
-  width: 60px;
+  width: 80px;
   height: 3px;
   background: red;
   margin: 15px auto;
@@ -228,6 +228,7 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 
 
 
