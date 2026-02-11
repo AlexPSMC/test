@@ -172,7 +172,9 @@ body {
   
 /* GALLERY */
 .gallery {
-  padding: 80px 60px;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .gallery h2 {
@@ -182,10 +184,11 @@ body {
 }
 
 .grid {
+  width: 85%;
+  max-width: 1400px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 por fila */
-  gap: 30px;
-  margin-top: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
 }
 
 .card {
@@ -240,3 +243,4 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
