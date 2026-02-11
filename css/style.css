@@ -66,6 +66,7 @@ body {
 }
 
 .menu a:hover {
+  transform: scale(1.08);
   color: red;
 }
 
@@ -155,11 +156,20 @@ body {
   color: white;
 }
 
+.btn.red:hover {
+  transform: scale(1.08);
+}
+
 .btn.outline {
   border: 1px solid red;
   color: white;
 }
 
+.btn.outline:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.6);
+}
+  
 /* GALLERY */
 .gallery {
   padding: 80px 60px;
@@ -218,3 +228,4 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
