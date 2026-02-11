@@ -182,16 +182,28 @@ body {
 }
 
 .gallery-header {
-  display: flex;
-  flex-direction: column; /* 👈 esto hace que se pongan uno debajo del otro */
-  align-items: flex-start;
-  margin-bottom: 60px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .gallery-header h2 {
-  font-size: 48px;
-  font-weight: 900;
-  margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #ff6b6b;
+    position: relative;
+    display: inline-block;
+}
+
+/* Línea debajo del título */
+.gallery-header h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #ff0000;
+    margin: 15px auto 0 auto;
+    border-radius: 2px;
 }
 
 /* LINEA */
@@ -272,3 +284,4 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
