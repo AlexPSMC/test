@@ -173,8 +173,29 @@ body {
 /* GALLERY */
 .gallery {
   padding: 100px 0;
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.gallery-header {
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto 60px auto; /* centrado */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.gallery-header h2 {
+  font-size: 40px;
+  color: #ff4d4d;
+}
+
+.gallery-header .line {
+  flex: 1;
+  height: 3px;
+  background: red;
 }
 
 .gallery h2 {
@@ -186,6 +207,7 @@ body {
 .grid {
   width: 85%;
   max-width: 1400px;
+  margin: 0 auto; /* esto lo centra */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
@@ -252,3 +274,4 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
