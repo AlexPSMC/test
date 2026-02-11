@@ -172,10 +172,7 @@ body {
   
 /* GALLERY */
 .gallery {
-  padding: 100px 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  padding: 80px 60px;
 }
 
 .gallery-header {
@@ -204,11 +201,12 @@ body {
   color: #ff8a8a;
 }
 
-.grid { 
-  margin-top: 50px; 
-  display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
-  gap: 30px; 
+.grid {
+  width: 85%;              /* espacio a los lados */
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
 }
 
 .card {
@@ -272,5 +270,6 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
 
 
