@@ -206,6 +206,12 @@ body {
     border-radius: 2px;
 }
 
+.gallery-header h2 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #ff7b7b;
+}
+
 /* LINEA */
 .gallery-header .line {
   flex: 1;
@@ -284,4 +290,5 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
 
