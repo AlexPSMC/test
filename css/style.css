@@ -204,13 +204,11 @@ body {
   color: #ff8a8a;
 }
 
-.grid {
-  width: 85%;
-  max-width: 1400px;
-  margin: 0 auto; /* esto lo centra */
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+.grid { 
+  margin-top: 50px; 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+  gap: 30px; 
 }
 
 .card {
@@ -274,4 +272,5 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
 
